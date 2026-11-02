@@ -1,0 +1,46 @@
+{
+    "experiment": "VeriNews AI 2.0 Final Source-Neutral Evaluation",
+    "training_records": 35756,
+    "testing_records": 8933,
+    "duplicate_group_overlap": 0,
+    "exact_text_overlap": 0,
+    "models": [
+        {
+            "Model": "Logistic Regression",
+            "Accuracy": 0.9867905518862644,
+            "Precision": 0.9815031608522594,
+            "Recall": 0.9907823209643111,
+            "F1 Score": 0.9861209127264173,
+            "Training Time": 0.19109010696411133
+        },
+        {
+            "Model": "Linear SVM",
+            "Accuracy": 0.9883577745438262,
+            "Precision": 0.9831421212830719,
+            "Recall": 0.9924367761758449,
+            "F1 Score": 0.9877675840978594,
+            "Training Time": 0.36507511138916016
+        },
+        {
+            "Model": "Random Forest",
+            "Accuracy": 0.9738049927236091,
+            "Precision": 0.957427328908217,
+            "Recall": 0.9886551642637674,
+            "F1 Score": 0.9727906976744186,
+            "Training Time": 12.282392263412476
+        },
+        {
+            "Model": "Hybrid Ensemble",
+            "Accuracy": 0.9879099966416658,
+            "Precision": 0.9815463676711049,
+            "Recall": 0.9931458284093595,
+            "F1 Score": 0.987312030075188,
+            "Training Time": 13.413373470306396
+        }
+    ],
+    "hybrid_errors": 108,
+    "best_model_by_f1": "Linear SVM",
+    "best_f1_score": 0.9877675840978594,
+    "subject_only_accuracy": 1.0,
+    "source_only_accuracy": 0.9924997201388112
+}

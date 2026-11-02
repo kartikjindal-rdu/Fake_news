@@ -1,0 +1,5 @@
+model_id,model_name,architecture_branch,feature_dimension,accuracy,precision,recall,f1_score,misclassifications,evaluation_samples,error_rate_pct,loss_optimization,avg_inference_latency_ms
+MOD-001,Logistic Regression,Traditional ML,50000,98.68,98.15,99.08,98.61,118,8933,1.32%,Log-loss (L2 penalty),3.2
+MOD-002,Linear SVM,Traditional ML,50000,98.84,98.31,99.24,98.78,104,8933,1.16%,Squared Hinge (Primal/Dual),2.8
+MOD-003,Random Forest,Traditional ML,5000,97.38,95.74,98.87,97.28,234,8933,2.62%,Gini Impurity (100 Trees),28.5
+MOD-004,Hybrid Ensemble,Ensemble Decision Layer,Multi-Classifier Consensus,98.79,98.15,99.31,98.73,108,8933,1.21%,Majority Hard Voting (3 Classifiers),4.5

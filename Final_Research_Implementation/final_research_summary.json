@@ -1,0 +1,34 @@
+{
+    "dataset_records_after_cleaning": 44689,
+    "training_samples": 35751,
+    "testing_samples": 8938,
+    "models": {
+        "Logistic Regression": {
+            "accuracy": 0.9932870888341911,
+            "precision": 0.99061473486626,
+            "recall": 0.9952852428099953,
+            "f1_score": 0.9929444967074318
+        },
+        "Linear SVM": {
+            "accuracy": 0.99742671738644,
+            "precision": 0.9976409530549658,
+            "recall": 0.9969354078264969,
+            "f1_score": 0.9972880556538144
+        },
+        "Random Forest": {
+            "accuracy": 0.9975385992392034,
+            "precision": 0.9971724787935909,
+            "recall": 0.9976426214049976,
+            "f1_score": 0.9974074946971483
+        },
+        "Hybrid Ensemble": {
+            "accuracy": 0.9968673081226225,
+            "precision": 0.9964655984919887,
+            "recall": 0.9969354078264969,
+            "f1_score": 0.9967004477963705
+        }
+    },
+    "hybrid_error_count": 28,
+    "hybrid_false_positives": 15,
+    "hybrid_false_negatives": 13
+}

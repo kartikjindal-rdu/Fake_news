@@ -1,0 +1,41 @@
+{
+    "records": 44689,
+    "training_records": 35756,
+    "testing_records": 8933,
+    "duplicate_group_overlap": 0,
+    "exact_text_overlap": 0,
+    "models": [
+        {
+            "Model": "Logistic Regression",
+            "Accuracy": 0.9920519422366506,
+            "Precision": 0.9882629107981221,
+            "Recall": 0.9950366343653982,
+            "F1 Score": 0.9916382051584031,
+            "Training Time": 0.18437838554382324
+        },
+        {
+            "Model": "Linear SVM",
+            "Accuracy": 0.9958580544050151,
+            "Precision": 0.9943422913719944,
+            "Recall": 0.996927440321437,
+            "F1 Score": 0.9956331877729258,
+            "Training Time": 0.40273594856262207
+        },
+        {
+            "Model": "Random Forest",
+            "Accuracy": 0.9955222209783947,
+            "Precision": 0.992711027509993,
+            "Recall": 0.9978728432994564,
+            "F1 Score": 0.9952852428099953,
+            "Training Time": 6.88860559463501
+        },
+        {
+            "Model": "Hybrid Ensemble",
+            "Accuracy": 0.9956341654539348,
+            "Precision": 0.9934086629001884,
+            "Recall": 0.9974001418104467,
+            "F1 Score": 0.9954004009906828,
+            "Training Time": 9.513269901275635
+        }
+    ]
+}

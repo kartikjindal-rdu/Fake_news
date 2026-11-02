@@ -1,0 +1,24 @@
+task_id,task_name,phase,start_date,end_date,duration_days,assigned_role,dependencies,completion_pct,status,milestone
+TSK-01,Project Planning and Requirement Analysis,Phase 1: Inception & Planning,2026-08-03,2026-08-14,12,Project Manager / Lead Architect,None,100%,Completed,Project Charter Approved
+TSK-02,Literature Review and Research,Phase 1: Inception & Planning,2026-08-10,2026-08-25,16,ML Research Engineer,TSK-01,100%,Completed,State-of-the-Art Baseline Defined
+TSK-03,Dataset Collection – ISOT Fake News Dataset,Phase 2: Data Engineering,2026-08-20,2026-08-29,10,Data Engineer,TSK-02,100%,Completed,Raw Corpus Ingested (44898 records)
+TSK-04,Dataset Cleaning and Preprocessing,Phase 2: Data Engineering,2026-08-28,2026-09-08,12,Data Engineer,TSK-03,100%,Completed,Source-Neutral Preprocessing Standardized
+TSK-05,Exploratory Data Analysis,Phase 2: Data Engineering,2026-09-04,2026-09-14,11,Data Analyst / ML Engineer,TSK-04,100%,Completed,Class Distributions & WordClouds Generated
+TSK-06,TF-IDF Feature Extraction,Phase 3: ML Engineering,2026-09-11,2026-09-19,9,ML Engineer,TSK-05,100%,Completed,50k Feature Sparse Matrix Serialized
+TSK-07,Logistic Regression Implementation,Phase 3: ML Engineering,2026-09-18,2026-09-25,8,ML Engineer,TSK-06,100%,Completed,Baseline Linear Model Validated (98.68%)
+TSK-08,Linear SVM Implementation,Phase 3: ML Engineering,2026-09-22,2026-09-30,9,ML Engineer,TSK-06,100%,Completed,Optimal Margin Hyperplane Fitted (98.84%)
+TSK-09,Random Forest Implementation,Phase 3: ML Engineering,2026-09-28,2026-10-06,9,ML Engineer,TSK-06,100%,Completed,Tree Ensemble Fitted on 5k Subspace (97.38%)
+TSK-10,Hybrid Ensemble Development,Phase 3: ML Engineering,2026-10-05,2026-10-13,9,Senior ML Architect,TSK-07;TSK-08;TSK-09,100%,Completed,Majority Hard-Voting Pipeline Assembled
+TSK-11,Model Evaluation and Comparison,Phase 4: Validation & Audits,2026-10-12,2026-10-19,8,QA / Validation Engineer,TSK-10,100%,Completed,Held-Out Evaluation Complete (8933 samples)
+TSK-12,Dataset Bias and Leakage Experiments,Phase 4: Validation & Audits,2026-10-16,2026-10-23,8,Research Scientist,TSK-11,100%,Completed,Subject & Wire Marker Leakage Quantified
+TSK-13,FastAPI Backend Development,Phase 5: Application Development,2026-09-21,2026-10-08,18,Backend Engineer,TSK-01,100%,Completed,REST API Core Architecture Operational
+TSK-14,ML Model Integration,Phase 5: Application Development,2026-10-19,2026-10-28,10,Senior Backend / ML Engineer,TSK-10;TSK-13,100%,Completed,final_verinews_model_package Integrated
+TSK-15,React Frontend Development,Phase 5: Application Development,2026-09-28,2026-10-22,25,Frontend Engineer,TSK-01;TSK-13,100%,Completed,Dark Enterprise Responsive UI Operational
+TSK-16,Claim Intelligence Module,Phase 6: Advanced Modules,2026-10-15,2026-10-24,10,Full-Stack Engineer,TSK-14;TSK-15,100%,Completed,Heuristic Extraction & Evidence Framework
+TSK-17,Domain Intelligence Module,Phase 6: Advanced Modules,2026-10-18,2026-10-26,9,Backend / Security Engineer,TSK-14;TSK-15,100%,Completed,Domain Trust Scoring & Risk Metrics
+TSK-18,Scan History and Database Integration,Phase 6: Advanced Modules,2026-10-20,2026-10-27,8,Database Engineer,TSK-13,100%,Completed,Persistent JSON Scan Storage Active
+TSK-19,Analytics and Model Studio,Phase 6: Advanced Modules,2026-10-22,2026-10-29,8,Frontend / BI Engineer,TSK-14;TSK-15,100%,Completed,In-App Model Diagnostics & Telemetry
+TSK-20,IBM Cognos Analytics Dashboard,Phase 7: BI & Executive Analytics,2026-10-28,2026-11-03,7,BI Specialist / Cognos Developer,TSK-11;TSK-12;TSK-18,100%,Completed,Cognos Data Package & Architecture Guide
+TSK-21,Software Testing and Debugging,Phase 8: Quality Assurance,2026-10-25,2026-10-31,7,QA Engineer,TSK-14;TSK-15;TSK-18,100%,Completed,15-Test Regression Suite Authored
+TSK-22,Documentation and Research Paper,Phase 9: Dissemination & Closeout,2026-10-26,2026-11-02,8,Technical Writer / Researcher,TSK-11;TSK-12;TSK-21,100%,Completed,20-Section Academic Paper Finalized
+TSK-23,Final Demonstration and Submission,Phase 9: Dissemination & Closeout,2026-11-02,2026-11-12,11,Project Lead / Entire Team,TSK-20;TSK-22,75%,In Progress,Academic Faculty Defense & Final Review

@@ -1,0 +1,8 @@
+category_id,class_label,subject_category,record_count,percentage_of_class,percentage_of_total,source_leakage_risk
+CAT-001,FAKE,politics,11500,48.98%,25.61%,High (Partisan political web content)
+CAT-002,FAKE,News,9050,38.54%,20.16%,High (Unverified web blogs and aggregators)
+CAT-003,FAKE,Government News,1570,6.69%,3.50%,Critical (Conspiracy and unverified claims)
+CAT-004,FAKE,left-news,680,2.90%,1.51%,High (Ideological blog articles)
+CAT-005,FAKE,US_News,783,3.33%,1.74%,High (Social media clickbait)
+CAT-006,REAL,politicsNews,11272,52.63%,25.11%,Critical (Reuters domestic political wire)
+CAT-007,REAL,worldnews,10145,47.37%,22.60%,Critical (Reuters international wire)

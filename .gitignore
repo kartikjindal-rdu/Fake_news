@@ -1,0 +1,23 @@
+# Secrets — never commit
+backend/.env
+
+# Python
+backend/.venv/
+backend/__pycache__/
+backend/app/**/__pycache__/
+**/*.pyc
+**/*.pyo
+*.egg-info/
+
+# Node
+frontend/node_modules/
+
+# Build outputs
+frontend/dist/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp

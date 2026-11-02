@@ -1,0 +1,9 @@
+kpi_id,kpi_metric,metric_value,formatted_value,unit,category,benchmark_context
+KPI-001,Total Dataset Records,44898,"44,898",Articles,Corpus,"Complete ISOT Research Corpus"
+KPI-002,Fake News Records,23481,"23,481",Articles,Corpus,"52.3% of total dataset"
+KPI-003,Real News Records,21417,"21,417",Articles,Corpus,"47.7% of total dataset"
+KPI-004,Total Evaluation Samples,8933,"8,933",Articles,Evaluation,"Held-out 20% group-aware stratified split"
+KPI-005,Number of ML Models,4,4,Classifiers,Architecture,"LR, Linear SVM, Random Forest, Hybrid Ensemble"
+KPI-006,Best Individual Accuracy,98.84,"98.84%",Percentage,Performance,"Linear SVM (LinearSVC, 50k TF-IDF features)"
+KPI-007,Ensemble Accuracy,98.79,"98.79%",Percentage,Performance,"Hybrid Majority Voting Ensemble (108 errors / 8,933)"
+KPI-008,Ensemble Peak Recall,99.31,"99.31%",Percentage,Performance,"Only 28 false negatives out of 4,261 real articles"

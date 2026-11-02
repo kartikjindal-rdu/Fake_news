@@ -1,0 +1,5 @@
+matrix_id,actual_class,predicted_class,quadrant_type,sample_count,percentage_of_test_set,percentage_of_actual_class,clinical_forensic_interpretation
+CM-001,Actual FAKE (0),Predicted FAKE (0),True Negative (TN),4592,51.40%,98.29%,Correctly identified unverified/fake articles
+CM-002,Actual FAKE (0),Predicted REAL (1),False Positive (FP),80,0.90%,1.71%,Type I Error: Fake news slipped through as real
+CM-003,Actual REAL (1),Predicted FAKE (0),False Negative (FN),28,0.31%,0.66%,Type II Error: Legitimate news falsely flagged as fake
+CM-004,Actual REAL (1),Predicted REAL (1),True Positive (TP),4233,47.39%,99.34%,Correctly identified verified legitimate articles
